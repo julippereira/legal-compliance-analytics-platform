@@ -1,4 +1,4 @@
-# Sample Data
+# 📊 Sample Data
 
 This folder contains anonymized datasets used for demonstration and portfolio purposes.
 
