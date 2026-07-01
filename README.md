@@ -1,10 +1,12 @@
 # ⚖️ Legal Compliance Analytics Platform
 
-![Portfolio Project](https://img.shields.io/badge/Portfolio-Project-blue?style=for-the-badge)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![Delta Lake](https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+<p align="center">
+  <img src="https://img.shields.io/badge/Portfolio-Project-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white">
+  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white">
+  <img src="https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+</p>
 
 End-to-end Data Engineering and Analytics platform designed to ingest, integrate, process and analyze compliance-related records from multiple data sources.
 
@@ -180,17 +182,41 @@ Key capabilities:
 
 ## 📊 Analytics Layer
 
-The platform produces curated datasets designed for reporting and business intelligence consumption.
+The platform produces curated datasets optimized for reporting and business intelligence consumption.
 
-Analytical capabilities include:
+Key analytical capabilities include:
 
-- Historical monitoring
-- Trend analysis
-- Status tracking
-- Operational reporting
+- Compliance monitoring
+- Historical trend analysis
 - Action plan governance
-- Cross-unit comparison
-- KPI monitoring
+- Operational KPI tracking
+- Cross-unit comparisons
+- Status monitoring
+- Drill-down analysis
+- Self-service reporting
+
+---
+
+## 📷 Dashboard Preview
+
+The analytics layer is designed to support monitoring, reporting and operational decision-making through interactive Power BI dashboards.
+
+Example pages include:
+
+- Executive Overview
+- Action Plan Management
+- Compliance Monitoring
+- Historical Trend Analysis
+
+```text
+dashboard/
+├── executive_overview.png
+├── action_plan_management.png
+├── compliance_monitoring.png
+└── historical_trends.png
+```
+
+> Dashboard screenshots and the Power BI report (.pbix) may be included in future updates.
 
 ---
 
@@ -278,9 +304,9 @@ Required technologies:
 
 ### Clone the Repository
 
-```bash
-git clone https://github.com/<username>/legal-compliance-analytics-platform.git
-cd legal-compliance-analytics-platform
+# Replace with your repository URL
+```
+git clone https://github.com/your-username/legal-compliance-analytics-platform.git
 ```
 
 ---
@@ -397,6 +423,19 @@ Dashboards
 - All datasets are fully anonymized.
 - No production credentials, endpoints or sensitive information are included.
 - Examples are provided for educational, demonstration and portfolio purposes only.
+
+---
+
+## 🔭 Future Enhancements
+
+Potential future improvements include:
+
+- Power BI sample dashboard (.pbix)
+- Automated orchestration workflows
+- Incremental processing examples
+- Data quality monitoring framework
+- CI/CD deployment templates
+- Delta Live Tables implementation
 
 ---
 
