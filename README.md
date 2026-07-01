@@ -1,12 +1,10 @@
 # ⚖️ Legal Compliance Analytics Platform
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white">
-  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white">
-  <img src="https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
-</p>
+![Portfolio Project](https://img.shields.io/badge/Portfolio-Project-blue?style=for-the-badge)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 End-to-end Data Engineering and Analytics platform designed to ingest, integrate, process and analyze compliance-related records from multiple data sources.
 
@@ -260,6 +258,145 @@ The project follows standard governance practices by excluding:
 - Proprietary information
 
 Configuration templates can be provided separately for local development environments.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+The examples provided in this repository were designed to run in a Databricks environment using PySpark and Delta Lake.
+
+Required technologies:
+
+- Python 3.10+
+- Apache Spark / PySpark
+- Delta Lake
+- Azure Databricks (recommended)
+
+---
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/<username>/legal-compliance-analytics-platform.git
+cd legal-compliance-analytics-platform
+```
+
+---
+
+### Explore the Sample Data
+
+Sample datasets are available in:
+
+```text
+sample_data/
+├── historical_records_sample.csv
+├── api_records_sample.csv
+├── consolidated_records_sample.csv
+└── action_plan_records_sample.csv
+```
+
+These files can be imported into:
+
+- Databricks
+- Spark environments
+- Power BI
+- Pandas workflows
+- SQL engines
+
+---
+
+### Run the Sample Pipelines
+
+The repository includes simplified pipeline examples demonstrating the architecture and processing patterns used in the solution.
+
+#### Historical Ingestion
+
+```text
+historical/sample_historical_pipeline.py
+```
+
+Demonstrates:
+
+- CSV ingestion
+- Data cleansing
+- Schema standardization
+- Delta Lake persistence
+
+---
+
+#### API Ingestion
+
+```text
+api/sample_api_ingestion.py
+```
+
+Demonstrates:
+
+- REST API extraction
+- Pagination handling
+- Schema discovery
+- JSON processing
+
+---
+
+#### Consolidation Layer
+
+```text
+consolidated/sample_consolidation_pipeline.py
+```
+
+Demonstrates:
+
+- Multi-source integration
+- Schema harmonization
+- Deduplication
+- Analytics-ready modeling
+
+---
+
+#### Action Plan Layer
+
+```text
+action_plan/sample_action_plan_ingestion.py
+```
+
+Demonstrates:
+
+- Action plan extraction
+- Data normalization
+- Historical snapshot generation
+- Delta Lake storage
+
+---
+
+### Power BI
+
+The sample datasets can be loaded directly into Power BI to reproduce analytical models and dashboard examples.
+
+Typical workflow:
+
+```text
+sample_data/
+        ↓
+Power Query
+        ↓
+Data Model
+        ↓
+Measures (DAX)
+        ↓
+Dashboards
+```
+
+---
+
+### Notes
+
+- Sample scripts are intentionally simplified.
+- All datasets are fully anonymized.
+- No production credentials, endpoints or sensitive information are included.
+- Examples are provided for educational, demonstration and portfolio purposes only.
 
 ---
 
