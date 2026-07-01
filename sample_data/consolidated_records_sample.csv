@@ -1,0 +1,51 @@
+record_id,source_system,business_unit,management_system,category,status,reference,action_reference,risk_level,last_review,next_review,target_date,reporting_period,data_source,record_type
+REC-001,Integrated,Site A,System A,Category A,Open,REF-001,AP-001,High,2024-01-15,2024-07-15,2024-07-30,2024-01,HISTORICAL,Requirement
+REC-002,Integrated,Site B,System B,Category B,Completed,REF-002,AP-002,Medium,2024-01-18,2024-07-18,2024-07-31,2024-01,API,Requirement
+REC-003,Integrated,Site C,System A,Category C,In Progress,REF-003,AP-003,Low,2024-02-10,2024-08-10,2024-08-25,2024-02,HISTORICAL,Recommendation
+REC-004,Integrated,Site D,System C,Category D,Open,REF-004,AP-004,Critical,2024-02-12,2024-08-12,2024-08-31,2024-02,API,Requirement
+REC-005,Integrated,Site E,System B,Category A,Completed,REF-005,AP-005,Medium,2024-03-05,2024-09-05,2024-09-20,2024-03,HISTORICAL,Requirement
+REC-006,Integrated,Site A,System C,Category B,In Progress,REF-006,AP-006,High,2024-03-14,2024-09-14,2024-09-28,2024-03,API,Recommendation
+REC-007,Integrated,Site B,System A,Category C,Open,REF-007,AP-007,Low,2024-04-01,2024-10-01,2024-10-15,2024-04,HISTORICAL,Requirement
+REC-008,Integrated,Site C,System B,Category D,Completed,REF-008,AP-008,Critical,2024-04-09,2024-10-09,2024-10-20,2024-04,API,Requirement
+REC-009,Integrated,Site D,System C,Category A,In Progress,REF-009,AP-009,Medium,2024-05-11,2024-11-11,2024-11-30,2024-05,HISTORICAL,Requirement
+REC-010,Integrated,Site E,System A,Category B,Open,REF-010,AP-010,High,2024-05-20,2024-11-20,2024-12-05,2024-05,API,Recommendation
+REC-011,Integrated,Site A,System B,Category C,Completed,REF-011,AP-011,Low,2024-06-08,2024-12-08,2024-12-20,2024-06,HISTORICAL,Requirement
+REC-012,Integrated,Site B,System C,Category D,In Progress,REF-012,AP-012,Critical,2024-06-18,2024-12-18,2024-12-31,2024-06,API,Requirement
+REC-013,Integrated,Site C,System A,Category A,Open,REF-013,AP-013,Medium,2024-07-04,2025-01-04,2025-01-20,2024-07,HISTORICAL,Requirement
+REC-014,Integrated,Site D,System B,Category B,Completed,REF-014,AP-014,High,2024-07-16,2025-01-16,2025-01-31,2024-07,API,Recommendation
+REC-015,Integrated,Site E,System C,Category C,In Progress,REF-015,AP-015,Low,2024-08-02,2025-02-02,2025-02-20,2024-08,HISTORICAL,Requirement
+REC-016,Integrated,Site A,System A,Category D,Open,REF-016,AP-016,Critical,2024-08-22,2025-02-22,2025-02-28,2024-08,API,Requirement
+REC-017,Integrated,Site B,System B,Category A,Completed,REF-017,AP-017,Medium,2024-09-06,2025-03-06,2025-03-20,2024-09,HISTORICAL,Requirement
+REC-018,Integrated,Site C,System C,Category B,In Progress,REF-018,AP-018,High,2024-09-19,2025-03-19,2025-03-31,2024-09,API,Recommendation
+REC-019,Integrated,Site D,System A,Category C,Open,REF-019,AP-019,Low,2024-10-03,2025-04-03,2025-04-20,2024-10,HISTORICAL,Requirement
+REC-020,Integrated,Site E,System B,Category D,Completed,REF-020,AP-020,Critical,2024-10-15,2025-04-15,2025-04-30,2024-10,API,Requirement
+REC-021,Integrated,Site A,System C,Category A,In Progress,REF-021,AP-021,Medium,2024-11-07,2025-05-07,2025-05-20,2024-11,HISTORICAL,Requirement
+REC-022,Integrated,Site B,System A,Category B,Open,REF-022,AP-022,High,2024-11-21,2025-05-21,2025-05-31,2024-11,API,Recommendation
+REC-023,Integrated,Site C,System B,Category C,Completed,REF-023,AP-023,Low,2024-12-05,2025-06-05,2025-06-20,2024-12,HISTORICAL,Requirement
+REC-024,Integrated,Site D,System C,Category D,In Progress,REF-024,AP-024,Critical,2024-12-18,2025-06-18,2025-06-30,2024-12,API,Requirement
+REC-025,Integrated,Site E,System A,Category A,Open,REF-025,AP-025,Medium,2025-01-10,2025-07-10,2025-07-20,2025-01,HISTORICAL,Requirement
+REC-026,Integrated,Site A,System B,Category B,Completed,REF-026,AP-026,High,2025-01-22,2025-07-22,2025-07-31,2025-01,API,Recommendation
+REC-027,Integrated,Site B,System C,Category C,In Progress,REF-027,AP-027,Low,2025-02-04,2025-08-04,2025-08-20,2025-02,HISTORICAL,Requirement
+REC-028,Integrated,Site C,System A,Category D,Open,REF-028,AP-028,Critical,2025-02-15,2025-08-15,2025-08-31,2025-02,API,Requirement
+REC-029,Integrated,Site D,System B,Category A,Completed,REF-029,AP-029,Medium,2025-03-06,2025-09-06,2025-09-20,2025-03,HISTORICAL,Requirement
+REC-030,Integrated,Site E,System C,Category B,In Progress,REF-030,AP-030,High,2025-03-20,2025-09-20,2025-09-30,2025-03,API,Recommendation
+REC-031,Integrated,Site A,System A,Category C,Open,REF-031,AP-031,Low,2025-04-08,2025-10-08,2025-10-20,2025-04,HISTORICAL,Requirement
+REC-032,Integrated,Site B,System B,Category D,Completed,REF-032,AP-032,Critical,2025-04-24,2025-10-24,2025-10-31,2025-04,API,Requirement
+REC-033,Integrated,Site C,System C,Category A,In Progress,REF-033,AP-033,Medium,2025-05-04,2025-11-04,2025-11-20,2025-05,HISTORICAL,Requirement
+REC-034,Integrated,Site D,System A,Category B,Open,REF-034,AP-034,High,2025-05-17,2025-11-17,2025-11-30,2025-05,API,Recommendation
+REC-035,Integrated,Site E,System B,Category C,Completed,REF-035,AP-035,Low,2025-06-07,2025-12-07,2025-12-20,2025-06,HISTORICAL,Requirement
+REC-036,Integrated,Site A,System C,Category D,In Progress,REF-036,AP-036,Critical,2025-06-21,2025-12-21,2025-12-31,2025-06,API,Requirement
+REC-037,Integrated,Site B,System A,Category A,Open,REF-037,AP-037,Medium,2025-07-03,2026-01-03,2026-01-20,2025-07,HISTORICAL,Requirement
+REC-038,Integrated,Site C,System B,Category B,Completed,REF-038,AP-038,High,2025-07-19,2026-01-19,2026-01-31,2025-07,API,Recommendation
+REC-039,Integrated,Site D,System C,Category C,In Progress,REF-039,AP-039,Low,2025-08-08,2026-02-08,2026-02-20,2025-08,HISTORICAL,Requirement
+REC-040,Integrated,Site E,System A,Category D,Open,REF-040,AP-040,Critical,2025-08-25,2026-02-25,2026-02-28,2025-08,API,Requirement
+REC-041,Integrated,Site A,System B,Category A,Completed,REF-041,AP-041,Medium,2025-09-09,2026-03-09,2026-03-20,2025-09,HISTORICAL,Requirement
+REC-042,Integrated,Site B,System C,Category B,In Progress,REF-042,AP-042,High,2025-09-23,2026-03-23,2026-03-31,2025-09,API,Recommendation
+REC-043,Integrated,Site C,System A,Category C,Open,REF-043,AP-043,Low,2025-10-07,2026-04-07,2026-04-20,2025-10,HISTORICAL,Requirement
+REC-044,Integrated,Site D,System B,Category D,Completed,REF-044,AP-044,Critical,2025-10-21,2026-04-21,2026-04-30,2025-10,API,Requirement
+REC-045,Integrated,Site E,System C,Category A,In Progress,REF-045,AP-045,Medium,2025-11-11,2026-05-11,2026-05-20,2025-11,HISTORICAL,Requirement
+REC-046,Integrated,Site A,System A,Category B,Open,REF-046,AP-046,High,2025-11-25,2026-05-25,2026-05-31,2025-11,API,Recommendation
+REC-047,Integrated,Site B,System B,Category C,Completed,REF-047,AP-047,Low,2025-12-05,2026-06-05,2026-06-20,2025-12,HISTORICAL,Requirement
+REC-048,Integrated,Site C,System C,Category D,In Progress,REF-048,AP-048,Critical,2025-12-18,2026-06-18,2026-06-30,2025-12,API,Requirement
+REC-049,Integrated,Site D,System A,Category A,Open,REF-049,AP-049,Medium,2026-01-10,2026-07-10,2026-07-20,2026-01,HISTORICAL,Requirement
+REC-050,Integrated,Site E,System B,Category B,Completed,REF-050,AP-050,High,2026-01-22,2026-07-22,2026-07-31,2026-01,API,Recommendation
