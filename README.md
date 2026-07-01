@@ -1,5 +1,13 @@
 # ⚖️ Legal Compliance Analytics Platform
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white">
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white">
+  <img src="https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+</p>
+
 End-to-end Data Engineering and Analytics platform designed to ingest, integrate, process and analyze compliance-related records from multiple data sources.
 
 The project combines data engineering, historical data management, API integrations, analytical modeling and business intelligence to provide a centralized and analytics-ready compliance monitoring solution.
