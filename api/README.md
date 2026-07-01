@@ -175,6 +175,40 @@ The resulting dataset contains:
 
 ---
 
+## 📊 Sample Data
+
+An anonymized sample dataset is provided to demonstrate the structure and expected output of this module.
+
+### Available Dataset
+
+```text
+sample_data/api_records_sample.csv
+```
+
+### Data Characteristics
+
+The sample dataset is:
+
+- Fully anonymized
+- Generated for demonstration purposes
+- Structurally equivalent to production data
+- Suitable for testing and documentation examples
+- Free of confidential or proprietary information
+
+### Usage
+
+The dataset can be used to:
+
+- Understand the expected schema
+- Explore transformation outputs
+- Validate analytical workflows
+- Reproduce portfolio examples
+- Support dashboard demonstrations
+
+> **Note:** Sample data is provided exclusively for educational, demonstration and portfolio purposes and does not contain real business information.
+
+---
+
 ## 🔗 Platform Integration
 
 This dataset serves as an operational source for subsequent processing layers.
@@ -218,6 +252,7 @@ This component demonstrates:
 - Analytics-oriented data engineering
 
 ---
+
 
 ## 🔒 Data Governance
 
