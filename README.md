@@ -10,12 +10,14 @@ The project combines data engineering, historical data management, API integrati
 
 - End-to-end Data Engineering pipeline
 - Azure Databricks + Delta Lake architecture
+- Historical and API-based data ingestion
 - Multi-source data integration
-- Historical and operational data consolidation
 - Action plan monitoring and governance
-- Compliance analytics and reporting
+- Delta-based analytical datasets
+- Analytics-ready data modeling
 - Power BI reporting layer
 - Production-inspired project structure
+- Fully anonymized sample datasets and pipelines
 
 ---
 
@@ -89,10 +91,12 @@ legal-compliance-analytics-platform/
 │   └── sample_api_ingestion.py
 │
 ├── consolidated/
-│   └── README.md
+│   ├── README.md
+│   └── sample_consolidation_pipeline.py
 │
 ├── action_plan/
-│   └── README.md
+│   ├── README.md
+│   └── sample_action_plan_ingestion.py
 │
 ├── dashboard/
 │
@@ -103,6 +107,7 @@ legal-compliance-analytics-platform/
 │   └── action_plan_records_sample.csv
 │
 ├── config/
+│   └── api_keys.example.json
 │
 └── README.md
 ```
@@ -209,6 +214,31 @@ All sample datasets are:
 
 ---
 
+## 💻 Sample Pipelines
+
+To preserve confidentiality while demonstrating implementation patterns, simplified versions of the main pipelines are included in this repository.
+
+Available examples:
+
+```text
+historical/sample_historical_pipeline.py
+api/sample_api_ingestion.py
+consolidated/sample_consolidation_pipeline.py
+action_plan/sample_action_plan_ingestion.py
+```
+
+These examples illustrate:
+
+- File ingestion workflows
+- REST API integration patterns
+- Data cleansing and normalization
+- Multi-source consolidation
+- Delta Lake persistence
+- Analytics-ready transformations
+
+All examples have been fully anonymized and adapted for portfolio purposes.
+
+---
 ## 🔐 Security & Configuration
 
 Sensitive information is not included in this repository.
@@ -257,15 +287,16 @@ Key benefits include:
 ## 🧠 What This Project Demonstrates
 
 - End-to-end Data Engineering development
+- Historical and API-based data ingestion
 - Multi-source data integration
-- Historical data management
-- API ingestion at scale
-- Delta Lake architecture
+- Delta Lake architecture design
 - Data quality and standardization
-- Analytics-oriented data modeling
-- Action plan tracking workflows
+- Schema harmonization
 - Time-series preparation
+- Action plan analytics
+- Analytics-oriented data modeling
 - Business Intelligence integration
+- Production-inspired project organization
 
 ---
 
