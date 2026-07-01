@@ -1,18 +1,3 @@
-"""
-Sample API Ingestion Pipeline
-
-Demonstrates:
-- REST API extraction
-- Pagination handling
-- Retry strategy
-- JSON normalization
-- Data cleansing
-- Delta Lake persistence
-
-This example uses fictional endpoints and mock structures
-for portfolio and educational purposes.
-"""
-
 # HISTORICAL DATA INGESTION PIPELINE (SAMPLE)
 
 import pyspark.sql.functions as F
